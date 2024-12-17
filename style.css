@@ -7,7 +7,6 @@
 }
 
 html {
-    font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -24,10 +23,11 @@ header {
 }
 
 .navbar {
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.5rem;
+    padding: 12px 16px;
 }
 
 .lines {
@@ -36,11 +36,10 @@ header {
 
 .line {
     display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+    width: 20px;
+    height: 2px;
+    margin: 4px auto;
+    transition: all 300ms ease-in-out;
     background-color: #101010;
 }
 
@@ -51,11 +50,11 @@ header {
 }
 
 .nav-item {
-    margin-left: 5rem;
+    margin-left: 40px
 }
 
 .nav-link {
-    font-size: 1.6rem;
+    font-size: 18px;
     font-weight: 400;
     color: #475569;
 }
@@ -65,24 +64,35 @@ header {
 }
 
 .nav-logo {
-    font-size: 2.1rem;
+    font-size: 24px;
     font-weight: 500;
     color: #482ff7;
 }
 
 @media only screen and (max-width: 768px) {
+    header {
+        margin-bottom: 50px;
+    }
+
+    .navbar {
+        position: fixed;
+        width: 100%;
+        justify-content: space-between;
+        z-index: 1000;
+    }
+
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 5rem;
+        top: 50px;
         flex-direction: column;
         background-color: #fff;
         width: 100%;
-        border-radius: 10px;
+        border-radius: 8px;
         text-align: center;
-        transition: 0.3s;
-        box-shadow:
-            0 10px 27px rgba(0, 0, 0, 0.05);
+        transition: 300ms;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+        z-index: 1000;
     }
 
     .nav-menu.active {
@@ -90,7 +100,7 @@ header {
     }
 
     .nav-item {
-        margin: 2.5rem 0;
+        margin: 30px 0;
     }
 
     .lines {
@@ -103,12 +113,10 @@ header {
     }
 
     .lines.active .line:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
+        transform: translateY(6px) rotate(45deg);
     }
 
     .lines.active .line:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-6px) rotate(-45deg);
     }
-
-
 }
