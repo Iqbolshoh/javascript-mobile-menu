@@ -6,11 +6,11 @@ This repository contains a simple mobile menu template built using HTML, CSS, an
 
 ### Desktop
 
-![Desktop Preview](./images/desktop.png)
+![Desktop Preview](./src/images/desktop.png)
 
 ### Mobile
 
-![Mobile Preview](./images/mobile.png)
+![Mobile Preview](./src/images/mobile.png)
 
 ## Features
 
