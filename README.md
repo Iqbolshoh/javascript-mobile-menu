@@ -1,4 +1,4 @@
-# Mobile Menu Template
+# Javascript Mobile Menu 
 
 This repository contains a simple mobile menu template built using HTML, CSS, and JavaScript. It features a responsive navigation bar that adapts to mobile screens with a menu button that expands and collapses on click.
 
