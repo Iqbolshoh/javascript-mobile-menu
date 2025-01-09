@@ -31,8 +31,8 @@ To use this template, simply clone the repository and open the `index.html` file
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Iqbolshoh/template-mobile-menu.git
-cd template-mobile-menu
+git clone https://github.com/Iqbolshoh/javascript-mobile-menu.git
+cd javascript-mobile-menu
 ```
 
 ## Technologies Used
