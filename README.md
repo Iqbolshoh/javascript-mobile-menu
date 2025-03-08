@@ -1,48 +1,44 @@
-# Javascript Mobile Menu 
+# 📱 JavaScript Mobile Menu
 
-This repository contains a simple mobile menu template built using HTML, CSS, and JavaScript. It features a responsive navigation bar that adapts to mobile screens with a menu button that expands and collapses on click.
+This repository contains a **simple mobile menu template** built using **HTML, CSS, and JavaScript**. It features a **responsive navigation bar** that adapts to mobile screens with a **menu button** that expands and collapses on click.
 
-## Preview
+## 🎨 Preview
 
-### Desktop
-
+### 🖥️ Desktop
 ![Desktop Preview](./src/images/desktop.png)
 
-### Mobile
-
+### 📱 Mobile
 ![Mobile Preview](./src/images/mobile.png)
 
-## Features
+## ✨ Features
 
-- **Responsive Design**: The navigation bar adjusts for both desktop and mobile screens.
-- **Menu Button**: A collapsible menu for mobile views with smooth transitions.
-- **Easy Customization**: Simple HTML and CSS structure that can be easily customized.
+- 🖥️ **Responsive Design**: The navigation bar adjusts for both desktop and mobile screens.
+- 🎯 **Menu Button**: A collapsible menu for mobile views with smooth transitions.
+- 🎨 **Easy Customization**: Simple **HTML and CSS** structure that can be easily customized.
 
-## Usage
+## 🚀 Usage
 
-1. **Adding/Removing Links**: Edit the `<ul class="nav-menu">` section in `index.html` to add or remove navigation items.
-2. **Styling**: Modify the CSS in the `<style>` tag to customize the appearance of the menu.
-3. **JavaScript**: The script handles the menu button toggle functionality. Adjust it if needed.
+1. ✏️ **Adding/Removing Links**: Edit the `<ul class="nav-menu">` section in `index.html` to add or remove navigation items.
+2. 🎨 **Styling**: Modify the CSS in the `<style>` tag to customize the appearance of the menu.
+3. ⚙️ **JavaScript**: The script handles the menu button toggle functionality. Adjust it if needed.
 
-## Installation
+## 🛠 Installation
 
 To use this template, simply clone the repository and open the `index.html` file in your browser.
 
-### Clone the Repository
+### 📂 Clone the Repository
 
 ```bash
 git clone https://github.com/Iqbolshoh/javascript-mobile-menu.git
 cd javascript-mobile-menu
 ```
 
-## Technologies Used
+## 🖥️ Technologies Used
 
 <div style="display: flex; flex-wrap: wrap; gap: 5px;">
-    <img src="https://img.shields.io/badge/HTML-%23F06529.svg?style=for-the-badge&logo=html5&logoColor=white"
-        alt="HTML">
+    <img src="https://img.shields.io/badge/HTML-%23F06529.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
     <img src="https://img.shields.io/badge/CSS-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
-    <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
-        alt="JavaScript">
+    <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
 </div>
 
 ---
